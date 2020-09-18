@@ -21,15 +21,26 @@ LOOPBACK 3
 5. kemudian buka command promt / terminal  "npm install nodemon -g"
 6. buka folder backend_loopback3 "./backend_loopback3/server/datasources.json"
 7. sesuaikan konfigurasi database (PotgreSQL) anda.
+
 example:  "eki_movie_db": {
+
 			"host": "127.0.0.1",
+			
 			"port": "5433",       <<== port default postgreSQL 5432, disni saya menggunakan docker
+			
 			"database": "eki_movie_db",
+			
 			"password": "<password anda>",
+			
 			"name": "eki_movie_db",
+			
 			"user": "postgres",
+			
 			"connector": "postgresql"  <<== jangan di rubah, ini connector loopback
+			
 	 }
+	 
+	 
 8. untuk menjalankan buka command promt / terminal buka folder "./backend_loopback3" ,jika sudah lalu ketik perintah "nodemon" untuk menjalankan,
    apabila bermasalah install "npm install -g @loopback/cli"  atau  "npm install -g loopback-cli" , lalu jalankan kembali "nodemon".
 
@@ -42,4 +53,5 @@ ada video dokumentasi bukti aplikasi ini sudah berjalan
 
 
 Thanks & best regards,
+
 Eki Indradi, S.Kom
