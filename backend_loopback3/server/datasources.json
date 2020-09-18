@@ -1,0 +1,22 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "storage": {
+    "name": "storage",
+    "connector": "loopback-component-storage",
+    "provider": "filesystem",
+    "maxFileSize": "5120000",
+    "root": "./data_files"
+  },
+  "eki_movie_db": {
+    "host": "127.0.0.1",
+    "port": "5433",
+    "database": "eki_movie_db",
+    "password": "masuk123",
+    "name": "eki_movie_db",
+    "user": "postgres",
+    "connector": "postgresql"
+  }
+}

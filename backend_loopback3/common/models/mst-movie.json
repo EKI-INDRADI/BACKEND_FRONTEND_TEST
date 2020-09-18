@@ -1,0 +1,37 @@
+{
+  "name": "mst_movie",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number",
+      "id": true
+    },
+    "name": {
+      "type": "string"
+    },
+    "release_date": {
+      "type": "string"
+    },
+    "imbd_rating": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "date"
+    },
+    "updated_at": {
+      "type": "date"
+    },
+    "cover": {
+      "type": "string"
+    }
+  
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
