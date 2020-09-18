@@ -8,6 +8,7 @@ Spesifikasi
 ---- optional ----
 apabila anda ingin menggunakan PostgreSQL versi docker 9.6 sudah saya sediakan di : 
 https://hub.docker.com/r/syscrypt/postgres 
+
 https://hub.docker.com/r/syscrypt/pgadmin   
 ---- / optional ----
 
@@ -43,6 +44,7 @@ example:  "eki_movie_db": {
 	 
 8. untuk menjalankan buka command promt / terminal buka folder "./backend_loopback3" ,jika sudah lalu ketik perintah "nodemon" untuk menjalankan,
    apabila bermasalah install "npm install -g @loopback/cli"  atau  "npm install -g loopback-cli" , lalu jalankan kembali "nodemon".
+9. pastikan port 3001 pada komputer anda kosong , karena rest api akan listen di port 127.0.0.1:3001
 
 ANGULAR 8 (production file)
 1. file ini bukan berupa source code tetapi berupa file production yang sudah jadi tinggal di pindahkan ke web server (Apache/Nginx/IIS/, dll) 
